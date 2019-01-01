@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'semantic-ui-css/semantic.min.css'
 import App from './app/layout/App';
 import * as serviceWorker from './serviceWorker';
 
@@ -17,7 +18,7 @@ if(module.hot) {
 render()
 
 
-// ReactDOM.render(<App />, document.getElementById('r oot'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
